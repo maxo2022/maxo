@@ -1,0 +1,210 @@
+
+
+/* styler le menu */
+.nav1 ul {
+  
+color: white;
+display: block;
+padding: 0%;
+margin-top: 0px;
+list-style-type: none;
+width: auto;
+height: 50px;
+text-align: center;
+size: 25px;
+border: 35px;
+background-color: gold;
+
+} 
+
+.nav1 li {
+
+  display: inline;
+  margin: 0px;
+  padding: 0px;
+  width: auto;
+  height: 40px;
+  padding-left: 25px;
+  padding-right: 0%;
+  border: 35px;
+  
+
+  }
+
+
+/*styler le Body*/
+body {
+  width: 65%;
+background-color: white;
+margin-left: 17%;
+margin-right: 17%;
+
+}
+
+
+
+/*styler le footer*/
+footer {
+    text-align: left;
+    width: auto;
+    padding-left: 25px;
+    color: black;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(200, 220, 200)
+    
+    
+  }
+
+
+ 
+ 
+  .leplan ul {
+    display: block;
+    list-style: none;
+    width: auto;
+    height: auto;
+    border: 5px outset yellowgreen;
+    background-color: lightblue;
+    text-align: left;
+    font-size: large;
+    padding-bottom: 10px;
+   
+  }
+
+
+  .myaudio { 
+    width: auto;
+    height: 400px;
+    background-color: lightblue;
+    border: 5px outset yellowgreen;
+   }
+
+   .myvideo{
+    width: auto;
+    height: auto;
+    background-color: lightblue;
+    border: 5px outset yellowgreen;
+    padding-bottom: 5px;
+    padding-left: 20px;
+
+
+
+
+   }
+
+   .adresse{
+    width: auto;
+    height: auto;
+    background-color: lightblue;
+    border: 5px outset yellowgreen;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+
+ }
+
+ .contact-image {
+  width: auto;
+  height: auto;
+  background-color: lightblue;
+  border: 5px outset yellowgreen;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+
+}
+
+.image-accueil {
+  width: auto;
+  height: auto;
+  background-color: lightblue;
+  border: 5px outset yellowgreen;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  
+
+}
+  
+
+
+.accueil-2 {
+  width: auto;
+  height: auto;
+  background-color: lightblue;
+  border: 5px outset yellowgreen;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  size: 25px;
+  
+
+}
+
+.apropos2 {
+  width: auto;
+  height: auto;
+  background-color: lightblue;
+  border: 5px outset yellowgreen;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  size: 25px;
+  }
+
+
+
+
+.garantie {
+  width: auto;
+  height: auto;
+  background-color: lightblue;
+  border: 5px outset yellowgreen;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  size: 25px;
+  }
+
+  .FAQ {
+    width: auto;
+    height: auto;
+    background-color: lightblue;
+    border: 5px outset yellowgreen;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    size: 25px;
+    }
+  
+
+
+ /* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+
+/* If the screen size is 601px or more, set the font-size of <div> to 80px */
+@media only screen and (min-width: 601px) {
+  div.example {
+    font-size: 80px;
+  }
+}
+
+/* If the screen size is 600px or less, set the font-size of <div> to 30px */
+@media only screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
